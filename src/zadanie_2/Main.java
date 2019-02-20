@@ -8,10 +8,8 @@ public class Main {
 
     public static void main(String[] args) throws FileNotFoundException {
         WorkClass workClass = new WorkClass();
-       // File file = new File("")
-
         List<Integer> positiveNumbers = (List<Integer>) workClass.readDate("liczby.txt");
-//        workClass.numberOfOccurrences(positiveNumbers);
+
         TreeSet<Integer>  occurrences = new TreeSet<>(positiveNumbers);
         workClass.printList(occurrences);
     }

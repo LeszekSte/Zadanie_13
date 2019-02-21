@@ -49,7 +49,7 @@ public class TestClass_1 {
         double nr = scanner.nextDouble();
         while (nr >= 0) {
             numbers.add(nr);
-            System.out.println("Następna - ");
+            System.out.println("Następna ");
             try {
                 nr = scanner.nextDouble();
             } catch (InputMismatchException e) {
